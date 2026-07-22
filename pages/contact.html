@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hibernia Research Compounds</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>HRC</h1>
+                <p>Hibernia Research Compounds</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="kits.html">KITS</a></li>
+                <li><a href="apply-access.html">Apply for Access</a></li>
+                <li><a href="lab-distributor.html">Lab & Distributor</a></li>
+                <li><a href="support-hub.html">Support Hub</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have questions about our products or services? Get in touch with our support team.</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem; margin-bottom: 3rem;">
+                <div style="background-color: var(--bg-light); padding: 2rem; border-radius: var(--border-radius);">
+                    <h3 style="color: var(--primary-color);">Email Support</h3>
+                    <p style="margin-top: 1rem;">
+                        <strong>General Inquiries:</strong><br>
+                        support@hiberniaresearchcompounds.org
+                    </p>
+                    <p>
+                        <strong>Access Support:</strong><br>
+                        access@hiberniaresearchcompounds.org
+                    </p>
+                    <p style="font-size: 0.9rem; color: var(--text-light);">We respond to all emails within 2-3 business days.</p>
+                </div>
+
+                <div style="background-color: var(--bg-light); padding: 2rem; border-radius: var(--border-radius);">
+                    <h3 style="color: var(--primary-color);">Support Information</h3>
+                    <p style="margin-top: 1rem;">When contacting us, please include:</p>
+                    <ul style="margin-left: 1.5rem;">
+                        <li>Your full name</li>
+                        <li>Account email</li>
+                        <li>Order number (if applicable)</li>
+                        <li>Description of your inquiry</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Send us a Message</h3>
+            <form id="contactForm" style="max-width: 600px;">
+                <div class="form-group">
+                    <label for="contactName">Name *</label>
+                    <input type="text" id="contactName" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactEmail">Email *</label>
+                    <input type="email" id="contactEmail" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required minlength="20"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Hibernia Research Compounds</h4>
+                    <p>Premium supplier of peptide reference materials and research compounds.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="kits.html">KITS</a></li>
+                        <li><a href="product-docs.html">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="support-hub.html">Support Hub</a></li>
+                        <li><a href="terms.html">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hibernia Research Compounds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/navigation.js"></script>
+    <script src="../js/forms.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

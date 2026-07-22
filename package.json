@@ -1,0 +1,19 @@
+{
+  "name": "hibernia-research-compounds-website",
+  "version": "1.0.0",
+  "description": "Official website for Hibernia Research Compounds - peptide reference materials and research compounds supplier",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'Build process to be configured'"
+  },
+  "keywords": [
+    "research",
+    "compounds",
+    "peptides",
+    "laboratory",
+    "analytical"
+  ],
+  "author": "Hibernia Research Compounds",
+  "license": "Copyright - All Rights Reserved"
+}
